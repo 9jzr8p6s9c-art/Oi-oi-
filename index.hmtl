@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>talvez voce goste das flores!🫶🏽</title>
+<style>
+:root{--paper:#fff;--ink:#111;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--paper:#121212;--ink:#f4f4f4}}
+:root[data-theme="dark"]{--paper:#121212;--ink:#f4f4f4}
+html,body{height:100%;margin:0}
+body{background:var(--paper);color:var(--ink);display:flex;flex-direction:column;align-items:center;justify-content:center;font-family:"Avenir Next","Helvetica Neue",Arial,sans-serif}
+h1{font-style:italic;font-weight:700;font-size:clamp(28px,8vw,44px);margin:0 0 4px;animation:fade 1.2s ease both}
+svg{width:min(88vw,420px);height:auto;overflow:visible}
+svg *{stroke-linecap:round;stroke-linejoin:round}
+.l{stroke:var(--ink);stroke-width:4;fill:var(--paper)}
+.k{fill:var(--ink)}
+#dog{transform-origin:150px 340px;animation:sway 1.6s ease-in-out infinite alternate}
+#bq{transform-origin:190px 300px;animation:bob .8s ease-in-out infinite alternate}
+#tail{transform-origin:106px 300px;animation:wag .22s ease-in-out infinite alternate}
+#ear{transform-origin:106px 135px;animation:flop 1.6s ease-in-out infinite alternate}
+.eye{transform-box:fill-box;transform-origin:center;animation:blink 4s infinite}
+.h{fill:var(--ink);opacity:0;animation:rise 3s ease-in infinite}
+@keyframes sway{from{transform:rotate(-4deg)}to{transform:rotate(4deg)}}
+@keyframes bob{from{transform:rotate(-3deg) translateY(0)}to{transform:rotate(3deg) translateY(-4px)}}
+@keyframes wag{from{transform:rotate(-14deg)}to{transform:rotate(14deg)}}
+@keyframes flop{from{transform:rotate(6deg)}to{transform:rotate(-8deg)}}
+@keyframes blink{0%,92%,100%{transform:scaleY(1)}96%{transform:scaleY(.1)}}
+@keyframes fade{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:none}}
+@keyframes rise{0%{opacity:0;transform:translateY(0)}20%{opacity:.9}100%{opacity:0;transform:translateY(-50px)}}
+@media (prefers-reduced-motion:reduce){*{animation-duration:4s!important}}
+</style>
+</head>
+<body>
+<h1>para Naju🫶🏽</h1>
+<svg viewBox="0 0 300 360" role="img" aria-label="Cachorrinho balançando com um buquê de flores">
+  <defs>
+    <g id="fl">
+      <circle class="l" cx="0" cy="-9" r="7"/><circle class="l" cx="8.5" cy="-3" r="7"/>
+      <circle class="l" cx="5.5" cy="7" r="7"/><circle class="l" cx="-5.5" cy="7" r="7"/>
+      <circle class="l" cx="-8.5" cy="-3" r="7"/><circle class="l" cx="0" cy="0" r="5"/>
+    </g>
+  </defs>
+  <g id="dog">
+    <path id="tail" class="l" d="M104 300 C80 295 72 270 82 255 C88 275 98 280 108 282"/>
+    <ellipse class="l" cx="150" cy="272" rx="52" ry="62"/>
+    <ellipse class="k" cx="118" cy="290" rx="14" ry="22"/>
+    <path class="l" d="M95 175 C90 130 130 115 160 128 C185 135 195 160 215 168 C228 175 226 196 206 201 C186 205 176 211 165 213 C130 226 98 210 95 175Z"/>
+    <path class="l" fill="none" d="M120 122 L116 108 M132 120 L132 105 M144 123 L148 110"/>
+    <g class="eye"><circle class="k" cx="140" cy="156" r="5"/></g>
+    <g class="eye"><circle class="k" cx="168" cy="154" r="5"/></g>
+    <ellipse class="k" cx="217" cy="176" rx="8" ry="6"/>
+    <path class="l" fill="none" d="M172 196 Q186 209 200 197"/>
+    <path id="ear" class="k" d="M104 134 C72 134 66 198 92 214 C114 216 122 160 112 136Z"/>
+    <g id="bq">
+      <path class="l" d="M150 252 L226 262 L175 338 Q165 342 160 334Z"/>
+      <use href="#fl" x="168" y="232"/><use href="#fl" x="205" y="226"/>
+      <use href="#fl" x="236" y="248"/><use href="#fl" x="190" y="258"/>
+      <use href="#fl" x="222" y="282"/><use href="#fl" x="160" y="264"/>
+    </g>
+    <ellipse class="l" cx="148" cy="300" rx="20" ry="12" transform="rotate(-20 148 300)"/>
+    <ellipse class="l" cx="204" cy="310" rx="18" ry="11" transform="rotate(-25 204 310)"/>
+  </g>
+  <path class="h" style="animation-delay:.2s" d="M60 120 c-8-8-18 2-8 12 l8 7 8-7 c10-10 0-20-8-12z"/>
+  <path class="h" style="animation-delay:1.2s" d="M250 130 c-6-6-14 2-6 9 l6 5 6-5 c8-7 0-15-6-9z"/>
+  <path class="h" style="animation-delay:2.2s" d="M270 200 c-5-5-11 1-5 7 l5 4 5-4 c6-6 0-12-5-7z"/>
+</svg>
+</body>
+</html>
